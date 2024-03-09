@@ -1,5 +1,5 @@
 {{--  --}}
-<X-guest-layout>
+<x-guest-layout>
      <!-- Start Slider Area -->
      <section id="slider_area">
         <div class="slider_active owl-carousel">
@@ -208,4 +208,4 @@
     </section>
     <!-- End Contact Area -->
 
-</X-guest-layout>
+</x-guest-layout>

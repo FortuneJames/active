@@ -253,6 +253,7 @@
     <script src="/homepage/js/owl.carousel.min.js"></script>
     <script src="/homepage/js/simplePlayer.js"></script>
     <script src="/homepage/js/main.js"></script>
+    <script src="//code.tidio.co/ptzevyuu90mvxgiydeh6zh3gwbsuhv7j.js" async></script>
     <div class="mgm " style="display: none">
         <div class="txt"
             style="color:  rgb(175, 177, 229)>

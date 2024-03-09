@@ -21,8 +21,8 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
-Route::get('/welcomed', [homepageController::class, 'mining'])->name('mining');
-Route::get('/welcom', [homepageController::class, 'invest'])->name('invest');
+Route::get('/mining', [homepageController::class, 'mining'])->name('mining');
+Route::get('/invest', [homepageController::class, 'invest'])->name('invest');
 
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
