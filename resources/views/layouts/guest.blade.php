@@ -155,11 +155,10 @@
                                     <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:;">Invest
                                         <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="owb-mining.html">Bitcoin Mining Investment</a></li>
-                                        <li><a href="invest-owb.html">8% Interest Investment</a></li>
+                                        <li><a href="{{ route('mining') }}">Bitcoin Mining Investment</a></li>
+                                        <li><a href="{{ route('invest') }}">8% Interest Investment</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="clients.html">Clients</a></li>
                                 <li class="dropdown">
                                     <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:;">Accounts
                                         <span class="caret"></span></a>

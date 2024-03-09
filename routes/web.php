@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\homepageController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
@@ -19,6 +20,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
+
+Route::get('/welcomed', [homepageController::class, 'mining'])->name('mining');
+Route::get('/welcom', [homepageController::class, 'invest'])->name('invest');
 
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
