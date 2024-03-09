@@ -13,7 +13,7 @@
     <meta name="robots" content="">
 
     <!-- Fav Icon -->
-    <link rel="shortcut icon" href="{{ asset('/assets/images/10x.jpg') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('/homepage/img/OWB-LOGO-CC.png') }}" type="image/x-icon">
 
 
     <!-- SEO Meta Tags -->
@@ -24,7 +24,7 @@
     <!-- Open Graph Meta Tags for Social Media -->
     <meta property="og:title" content="AI Allocation of Funds Platform">
     <meta property="og:description" content="Streamlining Fund Allocation with Artificial Intelligence">
-    <meta property="og:image" content="{{ asset('/assets/images/10x.jpg') }}">
+    <meta property="og:image" content="{{ asset('/homepage/img/OWB-LOGO-CC.png') }}">
     <meta property="og:url" content="{{ url('/') }}">
     <meta property="og:type" content="website">
 
@@ -32,7 +32,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="AI Allocation of Funds Platform">
     <meta name="twitter:description" content="Streamlining Fund Allocation with Artificial Intelligence">
-    <meta name="twitter:image" content="{{ asset('/assets/images/10x.jpg') }}">
+    <meta name="twitter:image" content="{{ asset('/homepage/img/OWB-LOGO-CC.png') }}">
 
     <!-- Mobile Specific -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -75,7 +75,7 @@
         ***********************************-->
         <div class="nav-header">
             <a href="#" class="brand-logo">
-                <img class="logo-dark" src="/assets/images/10x.jpg" width="70%" alt="logo">
+                <img class="logo-dark" src="/homepage/img/OWB-LOGO-CC.png" width="70%" alt="logo">
 
             </a>
 
@@ -832,7 +832,7 @@
     <script src="/js/dashboard/dashboard-1.js"></script>
     <script src="/js/custom.min.js"></script>
     <script src="/js/deznav-init.js"></script>
-  
+
 
 
 
