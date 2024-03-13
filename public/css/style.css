@@ -493,7 +493,7 @@ h1,
 
 h2,
 .h2 {
-    font-size: calc(1.3125rem + 0.75vw);
+    font-size: calc(2.3125rem + 0.75vw) !important;
 }
 
 @media (min-width: 1200px) {
@@ -14044,7 +14044,7 @@ body {
 
 @media only screen and (max-width: 1400px) {
     body {
-        font-size: 0.875rem;
+        font-size: 1.2 rem !important;
     }
 }
 
@@ -32260,7 +32260,7 @@ fieldset:disabled .btn {
 
 @media only screen and (max-width: 575px) {
     .card-body {
-        padding: 3rem;
+        padding: 3rem !important;
     }
 }
 
