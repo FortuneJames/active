@@ -1,11 +1,6 @@
 /*
     Table of Contents
 
-    Name                 : Eres
-    Author               : DexignZone
-    Author Portfolio     : https://themeforest.net/user/dexignzone/portfolio
-
-
     Table of Sass Contents
 
     1. Abstracts
@@ -32265,7 +32260,7 @@ fieldset:disabled .btn {
 
 @media only screen and (max-width: 575px) {
     .card-body {
-        padding: 1rem;
+        padding: 3rem;
     }
 }
 
