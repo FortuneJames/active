@@ -116,8 +116,7 @@
                                                 <defs>
                                                     <linearGradient id="paint0_linear3" x1="13.7187" y1="3.0625"
                                                         x2="14.7499" y2="17.5" gradientUnits="userSpaceOnUse">
-                                                        <stop stop-color="white" stop-opacity="0.73"
-                                                            offset="0.1" />
+                                                        <stop stop-color="white" stop-opacity="0.73" offset="0.1" />
                                                         <stop offset="1" stop-color="white" stop-opacity="0" />
                                                     </linearGradient>
                                                 </defs>
@@ -148,32 +147,22 @@
                             <div class="tab-content">
                                 <!-- TradingView Widget BEGIN -->
                                 <div class="tradingview-widget-container">
-                                    <div id="tradingview_ab8dd"></div>
-                                    <div class="tradingview-widget-copyright"></div>
-                                    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-                                    <script type="text/javascript">
-                                        new TradingView.widget({
+                                    <div class="tradingview-widget-container__widget"></div>
+                                    
+                                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
+                                        {
+                                            "colorTheme": "light",
+                                            "isTransparent": false,
                                             "width": "900",
                                             "height": "610",
-                                            "symbol": "NASDAQ:AAPL",
-                                            "interval": "1",
-                                            "timezone": "Etc/UTC",
-                                            "theme": "light",
-                                            "style": "1",
                                             "locale": "en",
-                                            "enable_publishing": false,
-                                            "withdateranges": true,
-                                            "hide_side_toolbar": false,
-                                            "allow_symbol_change": true,
-                                            "studies": [
-                                                "STD;Average_True_Range",
-                                                "STD;Awesome_Oscillator"
-                                            ],
-                                            "container_id": "tradingview_ab8dd"
-                                        });
+                                            "importanceFilter": "-1,0,1",
+                                            "countryFilter": "ar,au,br,ca,cn,fr,de,in,id,it,jp,kr,mx,ru,sa,za,tr,gb,us,eu"
+                                        }
                                     </script>
                                 </div>
                                 <!-- TradingView Widget END -->
+
                             </div>
                         </div>
                     </div>
@@ -186,3 +175,5 @@
             Content body end
         ***********************************-->
 </x-app-layout>
+"width": "900",
+"height": "610",

@@ -5,7 +5,7 @@
 <head>
 
     <!-- Title -->
-    <title> AI Allocation of Funds Platform</title>
+    <title> Interactive achivers Funds Platform</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
@@ -17,12 +17,12 @@
 
 
     <!-- SEO Meta Tags -->
-    <meta name="keywords" content="AI Allocation, Funds Platform, Artificial Intelligence, Fund Allocation">
+    <meta name="keywords" content="Interactive achivers, Funds Platform, Fund Allocation">
     <meta name="robots" content="index, follow">
     <meta name="revisit-after" content="7 days">
 
     <!-- Open Graph Meta Tags for Social Media -->
-    <meta property="og:title" content="AI Allocation of Funds Platform">
+    <meta property="og:title" content="Interactive achivers of Funds Platform">
     <meta property="og:description" content="Streamlining Fund Allocation with Artificial Intelligence">
     <meta property="og:image" content="{{ asset('/homepage/img/OWB-LOGO-CC.png') }}">
     <meta property="og:url" content="{{ url('/') }}">
@@ -30,7 +30,7 @@
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="AI Allocation of Funds Platform">
+    <meta name="twitter:title" content="Interactive achivers of Funds Platform">
     <meta name="twitter:description" content="Streamlining Fund Allocation with Artificial Intelligence">
     <meta name="twitter:image" content="{{ asset('/homepage/img/OWB-LOGO-CC.png') }}">
 
@@ -38,7 +38,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon icon -->
-    <link rel="/shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="/shortcut icon" type="image/x-icon" href="/homepage/img/OWB-LOGO-CC.png'">
     <link href="/vendor/owl-carousel/owl.carousel.css" rel="stylesheet">
     <link href="/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
@@ -795,7 +795,7 @@
 
         <div class="footer">
             <div class="copyright">
-                <p>Copyright © Developed by 2023</p>
+                <p>Copyright © Developed by Hex Master 2023</p>
             </div>
         </div>
         <!--**********************************
