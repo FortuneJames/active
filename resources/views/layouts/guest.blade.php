@@ -4,6 +4,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 <head>
+<meta name="google-site-verification" content="ScA4eDyomyiAdot4MaoF2RfZ-icP3mGphezRgS4ftCI" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B053R89VVJ"></script>
     <script>
@@ -254,6 +255,7 @@
     <script src="/homepage/js/simplePlayer.js"></script>
     <script src="/homepage/js/main.js"></script>
     <script src="//code.tidio.co/ptzevyuu90mvxgiydeh6zh3gwbsuhv7j.js" async></script>
+    <meta name="google-site-verification" content="ScA4eDyomyiAdot4MaoF2RfZ-icP3mGphezRgS4ftCI" />
     <div class="mgm " style="display: none">
         <div class="txt"
             style="color:  rgb(175, 177, 229)>
