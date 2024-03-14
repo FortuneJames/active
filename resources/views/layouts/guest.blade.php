@@ -192,8 +192,8 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="copyright">
-                        <p>&copy; 2023 Interactive Achivers All Rights Reserved. <br>Transactions processing by © 2020
-                            Prime Trust LLC</p>
+                        <p>&copy; 2023 Interactive Achivers All Rights Reserved. <br>Hex Master © 2020
+                           Hex</p>
                     </div>
                 </div>
                 <div class="col-sm-6">

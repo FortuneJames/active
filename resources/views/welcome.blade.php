@@ -7,13 +7,14 @@
                     <div class="single-slide-item-table">
                         <div class="single-slide-item-tablecell">
                             <div class="slider_content  slider_st text-center slider-animated-2">
-                                <h2 class="animated"><span style="text-transform:none;"></span><br> CAPITAL MARKETS ASSET
-                                    MANAGEMENT</h2>
+                                <h2 class="animated"><span style="text-transform:none;"></span><br>
+                                    Asset Management in Capital Markets</h2>
                                 <p class="animated">
-                                    <font size=4>Markets services available to corporations and partnerships.</font>
+                                    <font size=4>
+                                        Services available in markets for corporations and partnerships.</font>
                                 </p>
-                                <a href="index.html#about_area" class="animated btn main_bg_btn">READ
-                                    MORE</a>&nbsp;&nbsp;
+                                <a href="{{ route('home') }}#about_area" class="animated btn main_bg_btn">Explore
+                                    Further</a>&nbsp;&nbsp;
 
                             </div>
                         </div>
@@ -27,12 +28,20 @@
                     <div class="single-slide-item-table">
                         <div class="single-slide-item-tablecell">
                             <div class="slider_content slider_st text-center slider-animated-2">
-                                <h2 class="animated">CORPORATE BONDS</h2>
+                                <h2 class="animated">Company debt securities
+
+
+
+
+
+                                </h2>
                                 <p class="animated">
-                                    <font size=4>Corporate Bonds have been the most active and in demand service since
-                                        OWB's inception.</font>
+                                    <font size=4>Since the inception of OWB, Corporate Bonds have consistently been the
+                                        most sought-after and actively engaged service.
+
+                                    </font>
                                 </p>
-                                <a href="#partnership_area" class="animated btn main_bg_btn">See All Services</a>
+                                <a href="{{ route('home') }}#partnership_area" class="animated btn main_bg_btn">View All Offerings</a>
                             </div>
                         </div>
 
@@ -60,15 +69,15 @@
                                 <font color="#505050">Interactive Achivers</font>
                             </h2>
                         </div>
-                        <div class="text"><strong>Interactive Achivers provides Private, Boutique
-                                <br>Corporate Finance.</strong><br><br> Capital Markets Trading and Treasury Management
-                            Services to Select Clients Worldwide.  Our services are available to client
-                            corporations and partnerships that are looking to raise working capital in the public and
-                            private markets. Interactive Achivers provides solutions for raising Capital in Financial
-                            Markets both Public and Private.<br><br> Corporate
-                            Bonds / Convertible Bonds / Preferred Shares / Common Shares /  MTN / LTN, Derivatives and
-                            Hybrid Securities/ Bank Instruments / High Frequency Trading / Cash Management<br><br>
-                        </div>
+                        <div class="text"><strong>Interactive Achivers offers Exclusive, Tailored Corporate Finance
+                                services.</strong><br><br> We provide Capital Markets Trading and Treasury Management
+                            Services to a distinguished clientele globally. Our expertise is accessible to corporate
+                            entities and partnerships seeking to generate working capital through both public and
+                            private market channels. Interactive Achivers specializes in facilitating access to Capital
+                            across both Public and Private Financial Markets.<br><br> This includes Corporate Bonds,
+                            Convertible Bonds, Preferred and Common Stocks, Medium-Term Notes (MTN) / Long-Term Notes
+                            (LTN), Derivatives, Hybrid Financial Instruments, Bank Guarantees, High-Frequency Trading,
+                            and Cash Management solutions.<br><br></div>
 
                     </div>
                 </div>
@@ -91,24 +100,21 @@
                         </h2>
                         <ul>
 
-                            <li class="filter"><strong>Capital Markets Accounts Services</strong></li>
-                            <li class="filter" data-filter=".illustrator">You may place securities and or bank
-                                instruments and other high value securities and tear sheet program assets / bank
-                                instruments into your account for custodial purposes to show that the assets are in your
-                                account. You may
-                                access cash management markets, including cash management and payments in our Prime
-                                Trust Account Services area.</li><br>
-
+                            <li class="filter"><strong>Services for Accounts in Capital Markets</strong></li>
+                            <li class="filter" data-filter=".illustrator">Securities, bank instruments, and other
+                                high-value assets including tear sheet program assets/bank instruments can be deposited
+                                in your account for safeguarding, to verify asset possession in your account. This
+                                enables access to cash management markets, encompassing cash handling and payment
+                                services, through our Prime Trust Account Services section.</li><br>
 
                             <br>
 
-                            <li class="filter" data-filter=".ux_design"><strong>Digital Wallet Exchange
-                                    Services</strong></li>
-                            <li class="filter" data-filter=".ux_design">You may choose Treasury Management programs such
-                                as PPP, HFT ( High Frequency Trading ) and Collateral Management placement programs that
-                                provide Capital Markets and Investment Banking Income for Treasury Management and High
-                                Performance Income.</li><br>
-
+                            <li class="filter" data-filter=".ux_design"><strong>Services for Digital Wallet
+                                    Exchanges</strong></li>
+                            <li class="filter" data-filter=".ux_design">Opt for Treasury Management schemes like PPP,
+                                HFT (High Frequency Trading), and Collateral Management programs that offer revenue
+                                through Capital Markets and Investment Banking for Treasury Management and superior
+                                income generation.</li><br>
 
                             <br>
 
@@ -124,14 +130,12 @@
             <div class="row">
                 <div class="col-sm-12 col-xs-12 text-left wow fadeIn" data-wow-delay=".1s">
                     <div class="section_title_2">
-                        <h2>INVEST NOW AND EARN 8.8% APR</h2>
-                        <p><strong>Invest in Interactive Achivers Series A Certificate</strong> and receive a 8% ROI
-                            on a 6 month roll. While commissions have always been included in the principal amount for
-                            our certificate, the interest is now transparent
-                            and shown in detail. </font>
-                            </a>
-                        </p><br>
-                        <a href="register.html"><img src="/homepage/img/invest-button.png" /></a>
+                        <h2>MAKE YOUR INVESTMENT TODAY FOR A 8.8% ANNUAL RATE OF RETURN</h2>
+                        <p><strong>Place your investment in the Interactive Achivers Series A Certificate</strong> and
+                            obtain an 8% return on investment within a six-month cycle. Although commissions were
+                            traditionally incorporated into our certificate's principal, we now offer transparency with
+                            detailed disclosure of interest.</p><br>
+                        <a href="{{ route('register') }}"><img src="/homepage/img/invest-button.png" /></a>
                         <br><br>
                     </div>
                 </div>
@@ -151,19 +155,24 @@
                             <br>
                         </h2>
                         <p>
-                            <font color="grey">Interactive Achivers provides private financial services to banks,
-                                trusts and insurance corporations worldwide. Our comprehensive service is an end to end
-                                solution for raising capital in financial markets through a well established
-                                network of vendors and market participants serving the needs of (Small to Medium Sized
-                                Companies).<br><br> Interactive Achivers operates in the mid market level as the
-                                primary focus for capital development from 20M to 500M. Corporate
-                                Bonds / Convertible Bonds / Preferred Shares / Common Shares / Derivatives and Hybrid
-                                Securities. Large Long Term Projects are our secondary market focus from 500M and up.
-                                <br><br>Our complete list of services include:
-                                Corporate Bonds, Private Placement Memorandums, Promissory Notes, PKI Certificates, Debt
-                                Products, Merchant Banking, Global Currency to Cryptocurrency Conversion, Securities
-                                Borrowing and Lending.
-                            </font>
+
+                            <font color="grey">Interactive Achivers offers specialized financial services to banks,
+                                trusts, and insurance companies across the globe. We deliver a full-scale solution for
+                                accessing capital in the financial markets, leveraging a robust network of vendors and
+                                participants to meet the requirements of Small to Medium Sized Businesses.<br><br>
+                                Focusing primarily on the mid-market segment, Interactive Achivers targets capital
+                                growth projects ranging from 20M to 500M, including Corporate Bonds, Convertible Bonds,
+                                Preferred and Common Stocks, as well as Derivatives and Hybrid Securities. Projects
+                                exceeding 500M represent our focus in the secondary market for substantial, long-term
+                                ventures.<br><br>Our extensive service offerings encompass Corporate Bonds, Private
+                                Placement Memorandums, Promissory Notes, PKI Certificates, Debt Instruments, Merchant
+                                Banking services, as well as conversion services from Global Currencies to
+                                Cryptocurrencies, and Securities Borrowing and Lending.</font>
+
+
+
+
+
                             <br><br>
 
                         </p>
@@ -177,8 +186,8 @@
                 <div class="row">
                     <div class="col-sm-5">
                         <div class="content_left_title">
-                            <h3>Lets Get In Touch</h3>
-                            <p>Get intouch with a Interactive Achivers representative for more information today!</p>
+                            <h3>Contact Us</h3>
+                            <p>Reach out to an Interactive Achivers representative today for further details!</p>
                         </div>
                         <div class="single_contact_info">
                             <i class="ti-mobile"></i>
@@ -213,8 +222,8 @@
 
                                         <div class="col-sm-6">
                                             <div class="form-group">
-                                                <input name="firstname" id="firstname" type="text"
-                                                    placeholder="Name" class="form-control" required>
+                                                <input name="firstname" id="firstname" type="text" placeholder="Name"
+                                                    class="form-control" required>
                                             </div>
                                         </div>
                                         <!-- End Col -->
