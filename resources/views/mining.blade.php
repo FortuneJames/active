@@ -103,7 +103,7 @@
                         </div>
                         <div class="single_contact_info">
                             <i class="ti-mobile"></i>
-                            <p>+1 (434) 942 - 4870</p>
+                            <p>+1 (863) 282-3232</p>
                         </div>
 
                         <div class="single_contact_info">

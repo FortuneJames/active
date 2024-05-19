@@ -220,7 +220,7 @@
     <script type="text/javascript">
         (function() {
             var options = {
-                whatsapp: "+14349424870", // WhatsApp number
+                whatsapp: "+18632823232", // WhatsApp number
                 call_to_action: "Message us", // Call to action
                 position: "left", // Position may be 'right' or 'left'
             };
