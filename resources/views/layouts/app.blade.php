@@ -893,7 +893,7 @@
             "detect_browser_language": true,
             "wrapper_selector": ".gtranslate_wrapper",
             "horizontal_position": "right",
-            "vertical_position": "top"
+            "vertical_position": "bottom"
         }
     </script>
     <script src="https://cdn.gtranslate.net/widgets/latest/dropdown.js" defer></script>

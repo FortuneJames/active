@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use Illuminate\Support\Facades\Auth;
 
 use App\Models\Deposit;
@@ -106,12 +107,11 @@ class AdminController extends Controller
 
     public function updatewithdraw(Request $request, $id)
     {
-        $withdrawal = Withdrawal::find($id);
+        $withdrawal = Withdrawal::findOrFail($id);
         $withdrawal->status = $request->input('status');
         $withdrawal->save();
 
-        // return redirect()->back();
-        return redirect()->back();
+        return redirect()->back()->with('status', 'Withdrawal status updated successfully!');
     }
 
 
